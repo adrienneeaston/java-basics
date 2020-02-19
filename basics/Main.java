@@ -43,6 +43,21 @@ public class Main {
   }
 }
 
+//Arrays
+//Change the values in numbers so it will not raise an error.
+
+public class Main {
+  public static void main(String[] args) {
+      int[] numbers = {10, 2, 3, 4, 5};
+      int length = numbers[0];
+      char[] chars = new char[length];
+      chars[numbers.length + 4] = 'y';
+      System.out.println("Done!");
+  }
+}
+
+
+
 //Functions
 //Write the method printFullName of student which prints the full name of a student.
 
@@ -53,7 +68,6 @@ class Student {
       this.firstName = firstName;
       this.lastName = lastName;
   }
-  // Your code goes here
   public void printFullName() {
       System.out.println(firstName + " " + lastName);
   }
