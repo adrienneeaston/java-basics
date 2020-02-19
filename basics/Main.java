@@ -7,6 +7,7 @@ public class Main {
 }
 
 //Functions
+//Write the method printFullName of student which prints the full name of a student.
 
 class Student {
   private String firstName;
