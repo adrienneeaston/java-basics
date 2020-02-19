@@ -7,6 +7,22 @@ public class Main {
   }
 }
 
+//Variable and types
+//Create all of the primitives (except long and double) with different values. Concatenate them into a string and print it to the screen so it will print: H3110 w0r1d 2.0 true
+
+public class Main {
+  public static void main(String[] args) {
+      byte zero = 0;
+      short three = 31;
+      int one = 10;
+      float two = 2.0f;
+      char w = 'w';
+      boolean b = true;
+      String output = "H" + three + one + " " + w + zero + "r1d " + two + " " + b;
+      System.out.println(output);
+  }
+}
+
 //Functions
 //Write the method printFullName of student which prints the full name of a student.
 
